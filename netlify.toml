@@ -1,14 +1,1 @@
-[build]
-  publish = "build/"
-  command = "npm run build && npm test"
-  functions = "functions-build/"
-
-[[redirects]]
-  from = "/_api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+no fake
